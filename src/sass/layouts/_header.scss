@@ -1,10 +1,11 @@
 .header {
   background-color: $hero-bg;
+  display: flex;
 }
 .header__nav {
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
   padding-top: 37px;
 }
 .header__list {
@@ -14,8 +15,6 @@
     justify-content: center;
     align-items: center;
     gap: 35px;
-    padding-left: 126px;
-    padding-right: 141px;
   }
 }
 
@@ -36,3 +35,4 @@
   border-radius: 22px;
   border: none;
 }
+// БУРГЕР ========================
